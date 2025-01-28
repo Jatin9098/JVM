@@ -3,6 +3,13 @@
  */
 package java_demo;
 
+import java_demo.FunctionalInterface.ConsumerExample;
+import java_demo.FunctionalInterface.FunctionExample;
+import java_demo.FunctionalInterface.MethodAndConsReference;
+import java_demo.FunctionalInterface.PredicateExample;
+import java_demo.FunctionalInterface.SupplierExample;
+import java_demo.FunctionalInterface.UnaryAndBinaryOperatorsInterface;
+
 public class App {
     public String getGreeting() {
         return "Hello World!";
@@ -10,5 +17,25 @@ public class App {
 
     public static void main(String[] args) {
         System.out.println(new App().getGreeting());
+
+
+        // Predicate Example -> Boolean vauled function
+        //PredicateExample.start();
+
+        // Function Example -> Operation
+        //FunctionExample.start();
+
+        // Consumer Example -> took input but no return
+        //ConsumerExample.start();
+
+        // Supplier Example -> took no arugments only retrun
+        //SupplierExample.start();
+
+        // Unary and Binary operator
+        //UnaryAndBinaryOperatorsInterface.start();
+
+        //Method and Constuctor Reference
+        //MethodAndConsReference.start();
+
     }
 }
