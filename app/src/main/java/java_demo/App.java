@@ -9,6 +9,7 @@ import java_demo.FunctionalInterface.MethodAndConsReference;
 import java_demo.FunctionalInterface.PredicateExample;
 import java_demo.FunctionalInterface.SupplierExample;
 import java_demo.FunctionalInterface.UnaryAndBinaryOperatorsInterface;
+import java_demo.StreamExample.StreamExample;
 
 public class App {
     public String getGreeting() {
@@ -36,6 +37,9 @@ public class App {
 
         //Method and Constuctor Reference
         //MethodAndConsReference.start();
+
+        // Stream Example
+        StreamExample.start();
 
     }
 }
